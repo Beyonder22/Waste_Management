@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(wm1.png) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+.container{ 
+    color: rgb(14, 44, 128);
+    position: absolute;
+    top: 25%;
+    left: 40%; 
+}
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(14, 44, 128);
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%; 
+    margin: 22px 0px;
+    border-bottom: 2px solid rgb(14, 44, 128);
+}
+.box input{  
+    background: none;
+    width: 85%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: rgb(161, 176, 221);
+}
+a{
+    font-family: 'Heebo', sans-serif;
+}
+.btn{
+    color: rgb(45, 89, 185);
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid rgb(14, 44, 128);
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: rgb(14, 44, 128); 
+    background: rgb(107, 175, 196); 
+    
+}
